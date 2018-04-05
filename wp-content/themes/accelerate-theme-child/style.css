@@ -45,3 +45,63 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+
+/*****  HOME PAGE  *****/
+
+.featured-work .site-content {
+	text-align: center;
+}
+
+.featured-work h4 {
+	display: block;
+}
+
+.featured-work ul {
+	list-style: none;
+	display: flex;
+}
+
+.site-content img {
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+
+.featured-work-title  {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.featured-work {
+	width: 100%;
+}
+
+.featured-work h4 {
+	text-transform: uppercase;
+}
+
+
+/*****  CASE STUDIES  *****/
+
+.case-study h5 {
+	text-transform: none;
+}
+
+.case-study-sidebar {
+	box-sizing: border-box;
+	float: left;
+	width: 30%;
+	padding-right: 20px;
+}
+
+.case-study-images {
+	float: left;
+	width: 70%;
+	align-items: center;
+}
+
+.case-study-images img {
+	display: block;
+	margin: 30px auto;
+}
