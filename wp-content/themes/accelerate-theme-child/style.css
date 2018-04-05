@@ -105,3 +105,8 @@ Text Domain:  accelerate-theme-child
 	display: block;
 	margin: 30px auto;
 }
+
+#menu-social-media-nav {
+	list-style-type: none;
+	display: flex;
+}
