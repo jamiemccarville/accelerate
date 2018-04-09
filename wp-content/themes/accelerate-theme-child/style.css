@@ -110,3 +110,83 @@ Text Domain:  accelerate-theme-child
 	list-style-type: none;
 	display: flex;
 }
+
+/*****  ABOUT PAGE  *****/
+
+#about-text-top {
+	color: white;
+	font-size: 27px;
+	width: 50%;
+}
+
+.services-top {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#my-services {
+	width: 80%;
+	margin: auto;
+	
+}
+
+.service-description-img-left  {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: 
+		"i t t t"
+		"i p p p";
+	margin-bottom: 30px;
+
+}
+
+.service-description-img-left p {
+	grid-area: p;
+	padding-left: 50px;
+	align-self: start;
+	justify-self: start;
+	margin-top: 0px;
+	
+}
+
+.service-description-img-left aside {
+	grid-area: i;
+}
+
+.service-description-img-left h4 {
+	grid-area: t;
+	padding-left: 50px;
+	align-self: end;
+}
+
+.service-description-img-right  {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: 
+		" t t t i"
+		" p p p i";
+	margin-bottom: 30px;
+}
+
+.service-description-img-right p {
+	grid-area: p;
+	padding-right: 50px;
+	align-self: start;
+	justify-self: start;
+	margin-top: 0px;
+
+}
+
+.service-description-img-right aside {
+	grid-area: i;
+}
+
+.service-description-img-right h4 {
+	grid-area: t;
+	padding-right: 50px;
+	align-self: end;
+}
