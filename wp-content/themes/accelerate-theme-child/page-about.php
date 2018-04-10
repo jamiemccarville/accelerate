@@ -14,8 +14,7 @@
 get_header(); ?>
 
 	
-	<div id="primary" class="home-page hero-content">
-		<div class="main-content" role="main" >
+		
 
 			<?php while ( have_posts() ) : the_post(); 
 				$hero_text = get_field( 'hero_text' );
@@ -35,11 +34,13 @@ get_header(); ?>
 				$size = "full";
 			?>
 
+				<div class="about-page">
 				
 				<p id="about-text-top"><?php echo $hero_text; ?></p>
-				<?php the_content(); ?>
+			
+				
 			<?php endwhile; // end of the loop. ?>
-		</div><!-- .main-content -->
+		
 
 
 	</div><!-- #primary -->

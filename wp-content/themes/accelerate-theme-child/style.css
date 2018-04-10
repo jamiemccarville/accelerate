@@ -113,10 +113,26 @@ Text Domain:  accelerate-theme-child
 
 /*****  ABOUT PAGE  *****/
 
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat bottom center / cover;
+    height: 300px;
+    margin: 0 0 5px;
+    
+    text-align: center;
+}
+
+#hero-message {
+
+}
+
 #about-text-top {
 	color: white;
 	font-size: 27px;
 	width: 50%;
+	margin: 0 auto;
+	padding-top: 50px;
+
+
 }
 
 .services-top {
@@ -189,4 +205,11 @@ Text Domain:  accelerate-theme-child
 	grid-area: t;
 	padding-right: 50px;
 	align-self: end;
+}
+
+/*****  404  *****/
+
+#mario {
+	 background: url("img/thankyoumario.gif") no-repeat center;
+	 height: 500px;
 }
