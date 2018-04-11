@@ -81,6 +81,19 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+#home-page-post {
+	width: 50%;
+	float: left;
+}
+
+#hp {
+	width: 100%;
+}
+
+#pi_simpletwittertweets-2 {
+	width: 40%;
+	float: left;
+}
 
 /*****  CASE STUDIES  *****/
 
